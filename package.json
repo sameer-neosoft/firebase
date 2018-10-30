@@ -1,0 +1,20 @@
+{
+  "name": "map",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon ./app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "firebase": "^5.5.6",
+    "firebase-admin": "^6.0.0",
+    "firebase-functions": "^2.0.5",
+    "nodemon": "^1.18.5",
+    "xlsx-parse-json": "^2.0.2"
+  }
+}
